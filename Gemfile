@@ -1,3 +1,5 @@
+RAILS_ENV=production bundle exec rake assets:precompile
+
 source 'https://rubygems.org'
 ruby '2.3.6'
 
