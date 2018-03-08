@@ -1,5 +1,3 @@
-RAILS_ENV=production bundle exec rake assets:precompile
-
 source 'https://rubygems.org'
 ruby '2.3.6'
 
@@ -13,3 +11,5 @@ gem 'multi_json'
 gem 'newrelic_rpm'
 gem 'statsmix'
 gem 'rspec', '~> 3.4.0'
+
+RAILS_ENV=production bundle exec rake assets:precompile
